@@ -1,0 +1,183 @@
+/* ========= GERENCIAMENTO DE TELA ========= */
+/* section.inicio{ display: none;} */
+/* section.flag-1{ display: none;} */
+
+
+/* ========= CARREGAR FONTS ========= */
+@font-face {
+     font-family: abel;
+     src: url('../font/Abel-Regular.ttf');
+}
+@font-face {
+  font-family: 'mticons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/MaterialIcons-Regular.ttf);
+}
+
+.mticons{
+    font-family:mticons;
+}
+
+.faicons{
+    font-family:faicons;
+}
+
+/* ========= DEFINIÇÕES GERAIS ========= */
+body{
+    font-family:abel;
+    color: bl;
+    background:#0A1B2A;
+}
+section, body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* ========= TELA 1 - INÍCIO ========= */
+section.inicio{
+    text-align: center;
+    background: url(../img/1.png) no-repeat center bottom;
+    background-size: 160% auto;
+}
+section.inicio h1, section.cantores-2, section.cantores-3{
+    font-size: 5em;
+    margin: 7vh 5vw 0 5vw;
+    color: white;
+}
+section.inicio button{
+    background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+    border: none;
+    font-size: 2em;
+    color: #787878;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5);   
+    width: 80vw;
+    margin: 10vw auto;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+
+/* ========= TELA 1 - INÍCIO ========= */
+section.cantores{
+    color: white;
+}
+.headCantores-1{
+    height: 12vh;
+    padding-top: 3vh;
+    margin: 0vh auto 5vh auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #FFBF00;
+}
+.headCantores-1 p{
+    padding: 20px 15px 0 15px;
+}
+.headCantores-1 h1{
+    font-size: 3vh;
+}
+.headCantores-1 span, .headCantores-1 p{
+    padding-top: 2vh;
+    font-size: 3vh;
+}
+section.cantores ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5vh 5vw 5vh 5vw;
+}
+section.cantores-2{
+    font-size: 5vh;
+    color: black;
+ 
+}
+section.cantores-3{
+    font-size: 5vh;
+    color: black;
+  
+}
+section.cantores div ul{
+    padding: 3vh 0;
+}
+section.cantores div ul li{
+    width: 25vw;
+    height: 25vw;
+    margin: 0vh 1vw 4vh 1vw;
+}
+section.cantores ul li img{
+    width: 100%;
+    /* border-radius: 50%;
+    border: 3px solid #e3d7cb; */
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5); 
+}
+section.cantores footer{
+    background: #FFBF00;
+    width: 100vw;
+    height: 14vh;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    padding: 8px 0 0 0;
+}
+section.cantores footer p{
+    display: flex;
+    justify-content: space-around;
+}
+section.cantores footer span.mticons{
+    position: relative;
+    top: 2px;
+}
+
+/* --- TELA FIM --- */
+
+section.cantores-2 button{
+    text-align: center;
+    background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+    border: none;
+    font-size: 1em;
+    color: #787878;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5);
+    width: 80vw;
+    height: 20vw;
+    border-radius: 4px;
+    margin-left: 3vh ;
+    margin-top: 30px;
+}
+section.cantores-2 h2{
+    color: white;
+    text-align: center;
+    margin-right: 5vh;
+}
+section.cantores-3 button{
+    background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+    border: none;
+    font-size: 1em;
+    color: #787878;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5);
+    width: 80vw;
+    height: 20vw;
+    margin-top: 30px;
+    margin-left: 5vw;
+    border-radius: 4px;
+}
+section.cantores-2 h1, section.cantores-3 h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -20px;
+    margin-bottom:100px;
+}
+/**/
+section.inicio p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    margin: 35px;
+    margin-bottom: 5px;
+}
